@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MarkDAO &amp; the DAI stablecoin</title>
+    <meta name="Description" content="I&#39;m writing about what interests me, mostly crypto and IT.">
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="stylesheet" href="/css/prism-base16-monokai.dark.css">
+    <link rel="alternate" href="/feed/feed.xml" type="application/atom+xml" title="Rostgaard.IT">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Serif+JP&display=swap" rel="stylesheet"> 
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+
+
+  </head>
+  <body>
+    <header>
+      <h1 class="home"><a href="/">Rostgaard.IT</a></h1>
+      <ul class="nav"><li class="nav-item">
+          <a href="/">[ About ]</a>
+        </li><li class="nav-item">
+          <a href="/posts/">[ Posts ]</a>
+        </li></ul>
+    </header>
+
+    <main class="tmpl-note">
+      <div class="notes">
+<p>This information is, if nothing else is quoted, from the MakerDaos own white paper describing the Dai Stable coin system and their MakerDAO.[1]</p>
+<h1 id="ecosystem">Ecosystem <a class="direct-link" href="#ecosystem">#</a></h1>
+<p>The founder(s) of MakerDAO believe it's important to the Crypto Currency community to have stable coins, that's stable to a fiat currency currently in use. DAI is stable, relative to the US Dollar.<br>
+Another seeling point of DAI, especially to 'die hard crypto fans' is that it is completely decentralized.</p>
+<p>You can buy DAI from exchanges and utilize a mechanism known as Dai Saving Rate (DSR?) to earn an income.<br>
+Through Maker it is possible to generate DAI using Eth.</p>
+<h2 id="dai">DAI <a class="direct-link" href="#dai">#</a></h2>
+<p>DAI is the stablecoin isssued by MakerDAO</p>
+<h2 id="cdp-%26-mcdp">CDP &amp; MCDP <a class="direct-link" href="#cdp-%26-mcdp">#</a></h2>
+<p>Collateralized Debt Position is a smart contract provided by Maker. It is used to generate DAI whenever a collateralized asset is sent to it. This asset is in most cases Eth, but with MakerDAOs newly introduced MCDP (Multi Collateralized Debt Position) it is now (or soon) possible to use other assets (mostly other tokens basd on Ethereum. ERC20 tokens.)</p>
+<blockquote>
+<p>Collateral Asset means any loan, security, cash, or other asset of any kind owned or held by Borrower, in each case whether or not given credit in the Borrowing Base or having a positive Advance Rate. [2]</p>
+</blockquote>
+<p>To create DAI, you need to create debt. To do this the you need to supply an asset, and lock it into a debt position where the MakerDAO organisation actually 'own' your assets (the contract does at least). It is required that your debt position is of higher value than the debt created.</p>
+<p>The debt position is collaterilized at 150% percent.<br>
+This means that to create 100$ worth of DAI you need to supply 150$ worth of Eth.</p>
+<p>Example:</p>
+<ol>
+<li>Send a request to MakerDAO to open a CDP contract. Send a transaction with 150$ worth of Eth to the CDP contract created.</li>
+<li>Retrieve between 0-100$ worth of the DAI from the contract as needed. The amount is optional, but since there is only locked 150$ worth of Eth in the CDP contract there can maximum be retrieved 100$ worth of DAI from the contract. (In our example you pull out 100$ worth of DAI)</li>
+<li>To unlock the 150$ worth of Eth from the contract you will need to pay the 100$ worth of DAI back to the contract + a stability fee.</li>
+<li>With the debt paid you can now freely retrieve the 150§ worth of Eth locked up.</li>
+</ol>
+<hr>
+<p><strong>Question:</strong> Why wouldn't i just buy 100$ worth of eth on an exchange and open someone else contract and get 150$ wort of Eth?</p>
+<p><strong>Answer:</strong> Dunno yet...</p>
+<p><em>currently only Pooled Ether (PETH) is accepted to created CDP. The reason for this is that, MakerDAO 'controls' the price of these  PETH tokens and will be able to decrease the value of all PETH tokens to account for a sudden drop in the price of Ethereum (so it is used to keept he DAI stable in case of sudden drops to the price of Eth)</em></p>
+<h3 id="price-stabillitty-mechanisms">Price Stabillitty Mechanisms <a class="direct-link" href="#price-stabillitty-mechanisms">#</a></h3>
+<h4 id="emergency-shutdown">Emergency Shutdown <a class="direct-link" href="#emergency-shutdown">#</a></h4>
+<p>Emergency shutdowns can happen in a few instances (Hacking, security breaches and long term irrational market.). The shutdown will freeze the value of the asset underlying the Dai. The holders of Dai can then exchange the their Dai for the underlying collateralized asset that it has been frozen to. The example could be:</p>
+<blockquote>
+<p>If the Dai Target Price is 1 U.S. Dollar, the ETH/USD Price is 200 and a user holds 1000 Dai when Emergency Shutdown is activated, after the processing period they will be able to claim exactly 5 ETH from the Maker Platform</p>
+</blockquote>
+<h4 id="dai-savings-rate-adjustments">DAI Savings Rate Adjustments <a class="direct-link" href="#dai-savings-rate-adjustments">#</a></h4>
+<p>The market will change over time and this will reflect in the price of the Dai so that it is worth more or less compared to the US Dollar. To adjust for smaller fluctuations the MakerDAO can change the Day Savings Rate. The Dai Saving Rate is used to define how much Dai holders can earn in return on their holdings over time as well the the price for generating Dai from CDPs.</p>
+<blockquote>
+<p>If the market price of Dai is above 1 USD, the Dai Savings Rate will decrease. This stifles demand, which should reduce the market price of Dai down towards the 1 USD target price.</p>
+</blockquote>
+<blockquote>
+<p>If the market price of Dai is below 1 USD, the Dai Savings Rate will increase. This boosts demand, which should increase the market price of Dai up towards the 1 USD target price.</p>
+</blockquote>
+<h1 id="makerdao">MakerDAO <a class="direct-link" href="#makerdao">#</a></h1>
+<p>MakerDAO is the Decentralized Autonomus Organisation (DAO) that is controlling the issuance o the MakerDAOs stablecoin 'DAI'.</p>
+<p><a href="https://makerdao.com/da/whitepaper/#risk-management-of-the-maker-platform">https://makerdao.com/da/whitepaper/#risk-management-of-the-maker-platform</a></p>
+<hr>
+<h3 id="sources">Sources <a class="direct-link" href="#sources">#</a></h3>
+<p>[1] - <a href="https://makerdao.com/da/whitepaper/">https://makerdao.com/da/whitepaper/</a><br>
+[2] - <a href="https://www.lawinsider.com/dictionary/collateral-asset">https://www.lawinsider.com/dictionary/collateral-asset</a></p>
+
+
+
+<div class="notes-date"> 
+    <p>Created</p>
+    <small>10 Nov 2019 00:00 ()</small>
+</div>
+</div>
+
+
+
+    </main>
+
+    <footer></footer>
+
+    <!-- Current page: /notes/dai-notes/ -->
+  </body>
+</html>
