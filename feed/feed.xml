@@ -12,7 +12,7 @@
 	</author>
 	
 	<entry>
-		<title>About me and what i offer (working title)</title>
+		<title>About me and what I offer</title>
 		<link href="https://blog.rostgaard.it/posts/me-as-a-post/"/>
 		<updated>2020-11-17T01:00:00+01:00</updated>
 		<id>https://blog.rostgaard.it/posts/me-as-a-post/</id>
@@ -24,18 +24,17 @@
 &lt;p&gt;My name is Mark, I&#39;m 27 years old, I live in Copenhagen and works as a software developer.&lt;/p&gt;
 &lt;p&gt;I have experience with quite a few different programming paradigms and languages. My primary tools for development is Python and React.&lt;/p&gt;
 
-&lt;p&gt;I also have a few years experience with Blockchain technology. I&#39;ve written my masters about Ethereum&lt;sup&gt;[&lt;a target=&quot;_blank&quot; href=&quot;https://blog.rostgaard.it/files/Thesis.pdf&quot;&gt;link&lt;/a&gt;]&lt;/sup&gt;, I&#39;ve worked over a year for Bitcoin Suisse and I&#39;ve cofounded, and also volunteered in, Nordic Blockchain Association.
+&lt;p&gt;I also have a few years experience with Blockchain technology. I&#39;ve written my master thesis about Ethereum&lt;sup&gt;[&lt;a target=&quot;_blank&quot; href=&quot;https://blog.rostgaard.it/files/Thesis.pdf&quot;&gt;link&lt;/a&gt;]&lt;/sup&gt;, I&#39;ve worked over a year for Bitcoin Suisse and I&#39;ve cofounded, and also volunteered in, Nordic Blockchain Association.
     I&#39;ve also had some speaking about Bitcoin and blockchain technology, more details can be found &lt;a href=&quot;#speaking&quot;&gt;here.&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;I&#39;ve worked as a consultant, where I&#39;ve implemented different software solutions, amongst these are some bank compliance software for Googles technology stack.&lt;/p&gt;
 
 &lt;h1&gt;Experience and what i&#39;m offering&lt;/h1&gt;
-&lt;p&gt;I have a understanding that most people, will not know, or care of, technical details of my expertise. For this reason the details can be found the &lt;a href=&quot;#details&quot;&gt;headline below.&lt;/a&gt; &lt;/p&gt;
 
-&lt;p&gt;I offer a variaty of services. Mostly i like to create things and working with new technologies, so if you have a project you might think I can help with, don&#39;t hesistate to contact me and we can have a non-committal conversation.&lt;/p&gt;
+&lt;p&gt;I offer a variaty of services. Mostly I like to create things and working with new technologies, so if you have a project you might think I can help with, don&#39;t hesistate to contact me and we can have a non-committal conversation.&lt;/p&gt;
 
 &lt;p&gt;I have extensive experience in building backend and frontend software. One of my greatest enjoyment is to create beautifull frontends, that is user engaging and friendly to use. &lt;/p&gt;
-&lt;p&gt;I can setup and work with the most common database system and I have experience working with servers, mostly Linux based. If you want your system to run on AWS services it is also something i have some experience with.&lt;/p&gt;
+&lt;p&gt;I can setup and work with the most common database system and I have experience working with servers, mostly Linux based. If you want your system to run on AWS services it is also something I have some experience with.&lt;/p&gt;
 &lt;p&gt;I can talk about Blockchain technology for days, so if you have an interest in this or would like me to talk at a conference, or maybe your collegues, about blockchain, what it is and if this is something that&#39;s right for your company, I can help with that &lt;/p&gt;
 
 &lt;h2 id=&quot;details&quot;&gt;Technical details&lt;/h2&gt;
@@ -67,11 +66,11 @@ I&#39;ve also created the frontends for these projects in React.
 
 &lt;h1&gt;References&lt;/h1&gt;
 &lt;h2&gt;Bitcoin Suisse&lt;/h2&gt;
-After my employment at Bitcoin Suisse i received this letter of &lt;a target=&quot;_blank&quot; href=&quot;https://blog.rostgaard.it/files/BTCS-anbefaling.pdf&quot;&gt;recommendation.&lt;/a&gt;
+After my employment at Bitcoin Suisse I received this letter of &lt;a target=&quot;_blank&quot; href=&quot;https://blog.rostgaard.it/files/BTCS-anbefaling.pdf&quot;&gt;recommendation.&lt;/a&gt;
 
 &lt;h2&gt;Consulting&lt;/h2&gt;
 &lt;h3&gt;Tricent&lt;/h3&gt;
-For Tricent i developed a Security Web Portal and the Google compliance software as mentioned &lt;a href=&quot;#gdc&quot;&gt;above&lt;/a&gt;.
+For Tricent I developed a Security Web Portal and the Google compliance software as mentioned &lt;a href=&quot;#gdc&quot;&gt;above&lt;/a&gt;.
 &lt;h4&gt;Google compliance software&lt;/h4&gt;
 &lt;a href=&quot;https://www.tricent.com/&quot;&gt;This&lt;/a&gt; is the project as it looks now. I was hired by them in the beginning of 2019, so it has obviusly changed since.
 

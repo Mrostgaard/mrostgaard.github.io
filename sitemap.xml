@@ -62,21 +62,6 @@
   </url>
   
   <url>
-    <loc>https://blog.rostgaard.it/tags/django/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.rostgaard.it/tags/models/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://blog.rostgaard.it/tags/complexity/</loc>
-    <lastmod>2020-10-20</lastmod>
-  </url>
-  
-  <url>
     <loc>https://blog.rostgaard.it/tags/Bitcoin/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
@@ -88,6 +73,21 @@
   
   <url>
     <loc>https://blog.rostgaard.it/tags/CC/</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.rostgaard.it/tags/django/</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.rostgaard.it/tags/models/</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.rostgaard.it/tags/complexity/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   
