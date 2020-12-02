@@ -2,22 +2,22 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>https://blog.rostgaard.it/posts/dai-makerdao/</loc>
+    <loc>https://blog.rostgaard.it/p.backup/dai-makerdao/</loc>
     <lastmod>2018-05-01</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.rostgaard.it/posts/firstpost/</loc>
+    <loc>https://blog.rostgaard.it/p.backup/firstpost/</loc>
     <lastmod>2018-05-01</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.rostgaard.it/posts/secondpost/</loc>
+    <loc>https://blog.rostgaard.it/p.backup/secondpost/</loc>
     <lastmod>2018-07-04</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.rostgaard.it/posts/thirdpost/</loc>
+    <loc>https://blog.rostgaard.it/p.backup/thirdpost/</loc>
     <lastmod>2018-08-24</lastmod>
   </url>
   
@@ -27,17 +27,17 @@
   </url>
   
   <url>
-    <loc>https://blog.rostgaard.it/posts/covid19/</loc>
+    <loc>https://blog.rostgaard.it/p.backup/covid19/</loc>
     <lastmod>2020-03-22</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.rostgaard.it/posts/bitcoin2020/</loc>
+    <loc>https://blog.rostgaard.it/p.backup/bitcoin2020/</loc>
     <lastmod>2020-05-16</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.rostgaard.it/posts/complex-django-models/</loc>
+    <loc>https://blog.rostgaard.it/p.backup/complex-django-models/</loc>
     <lastmod>2020-08-02</lastmod>
   </url>
   
@@ -52,12 +52,12 @@
   </url>
   
   <url>
-    <loc>https://blog.rostgaard.it/page-list/</loc>
+    <loc>https://blog.rostgaard.it/p.backup/fourthpost/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   
   <url>
-    <loc>https://blog.rostgaard.it/posts/fourthpost/</loc>
+    <loc>https://blog.rostgaard.it/page-list/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   
@@ -113,6 +113,21 @@
   
   <url>
     <loc>https://blog.rostgaard.it/tags/second-tag/</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.rostgaard.it/tags/me/</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.rostgaard.it/tags/consultancy/</loc>
+    <lastmod>2020-10-20</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://blog.rostgaard.it/tags/volunteering/</loc>
     <lastmod>2020-10-20</lastmod>
   </url>
   
@@ -302,12 +317,17 @@
   </url>
   
   <url>
-    <loc>https://blog.rostgaard.it/posts/org-mode-calc/</loc>
+    <loc>https://blog.rostgaard.it/p.backup/org-mode-calc/</loc>
     <lastmod>2020-10-21</lastmod>
   </url>
   
   <url>
+    <loc>https://blog.rostgaard.it/posts/me-as-a-post/</loc>
+    <lastmod>2020-11-17</lastmod>
+  </url>
+  
+  <url>
     <loc>https://blog.rostgaard.it/</loc>
-    <lastmod>2020-11-12</lastmod>
+    <lastmod>2020-12-02</lastmod>
   </url>
 </urlset>
