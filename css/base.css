@@ -69,6 +69,16 @@
   text-decoration: none;
 }
 
+.card.blog-post-card {
+  max-width: 800px;
+  padding: 0px;
+  transform: perspective(1px) translateZ(0);
+  transition-duration: 0.3s;
+}
+.card.blog-post-card:hover {
+  box-shadow: 7px 7px 0px 0px rgba(0, 0, 0, 0.75);
+}
+
 .note {
   text-align: center;
 }
@@ -85,6 +95,7 @@
 .offer-description {
   display: grid;
   grid-gap: 22px;
+  padding: 20px;
 }
 
 .offer-details {
@@ -97,9 +108,14 @@
   }
 }
 .offer-details .info-box {
-  border: 1px solid;
+  border-top: 1px solid;
   padding: 4px;
   padding-top: 10px;
+}
+@media (min-width: 630px) {
+  .offer-details .info-box:first-child {
+    border-right: 1px solid;
+  }
 }
 .offer-details .info-box h3 {
   text-align: center;

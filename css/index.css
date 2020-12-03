@@ -446,9 +446,6 @@ blockquote{
   grid-gap: 20px;
 }
 
-.card.blog-post-card{
-  max-width: 800px;
-}
 
 .dev-icons{
   max-height: 36px;
